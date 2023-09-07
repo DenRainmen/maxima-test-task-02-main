@@ -7,9 +7,11 @@ $('#slider').slick({
 
 $(document).ready(function () {
 
-	confirm("Создаем нового пользователя ?");
+	
+	
 	
 	$("#open-create-user").click(function(){
+		alert("Создаем нового пользователя ?");
 					$("#user-modal").fadeIn(200)
 		
 	})
