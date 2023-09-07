@@ -12,7 +12,7 @@ $(document).ready(function () {
 	
 	$("#open-create-user").click(function(){
 		alert("Создаем нового пользователя ?");
-				/* 	$("#user-modal").fadeIn(200) */
+					$("#user-modal").fadeIn(200)
 		
 	})
 
