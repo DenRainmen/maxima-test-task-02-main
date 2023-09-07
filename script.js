@@ -6,6 +6,8 @@ $('#slider').slick({
 
 
 $(document).ready(function () {
+
+	confirm("Создаем нового пользователя ?");
 	
 	$("#open-create-user").click(function(){
 					$("#user-modal").fadeIn(200)
